@@ -27,22 +27,22 @@ const HomeEvent = () => {
                         <div className="caixinhas">
                             <p>Título do evento</p>
                             <p2>Breve descrição do evento, pode ser um paragrafo pequeno</p2>
-                            <p3>Conectar</p3>
+                            <button className="botao_caixa">Conectar</button>
                         </div>
                         <div className="caixinhas">
                             <p>Título do evento</p>
                             <p2>Breve descrição do evento, pode ser um paragrafo pequeno</p2>
-                            <p3>Conectar</p3>
+                            <button className="botao_caixa">Conectar</button>
                         </div>
                         <div className="caixinhas">
                             <p>Título do evento</p>
                             <p2>Breve descrição do evento, pode ser um paragrafo pequeno</p2>
-                            <p3>Conectar</p3>
+                            <button className="botao_caixa">Conectar</button>
                         </div>
                         <div className="caixinhas">
                             <p>Título do evento</p>
                             <p2>Breve descrição do evento, pode ser um paragrafo pequeno</p2>
-                            <p3>Conectar</p3>
+                            <button className="botao_caixa">Conectar</button>
                         </div>
                     </div>          
                     </div>

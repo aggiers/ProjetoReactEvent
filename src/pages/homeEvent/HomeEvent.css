@@ -76,9 +76,12 @@ main {
     padding-right: 20px;
 }
 
-.caixinhas p3{
+.botao_caixa{
     color: #B51D44;
     font-weight: 600;
+    border: none;
+    background-color: white;
+    font-size: 15px;
 }
 
 

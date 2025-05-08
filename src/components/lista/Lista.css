@@ -84,3 +84,37 @@
 .tabela .item_lista :nth-child(2){
     text-align: start;
 }
+
+
+@media screen and (max-width: 768px){
+    .tabela thead {
+        display: none;
+    }
+
+    .item_lista td{
+        display: grid;
+        text-align: left;
+        padding: 10px 10px 10px 0;
+        grid-template-columns: 10ch auto;
+        
+    }
+    
+    .item_lista td::before{
+        content: attr(data-cell) ":";
+        font-weight: 700;
+        width: 80px;
+        text-align: left;
+    }
+    
+    .item_lista td:last-child{
+        margin-bottom: 24px;
+        padding: 10px 0 10px;
+    }
+    
+    .item_lista td:first-child{
+        margin-top: 24px;
+
+    }
+
+    
+}

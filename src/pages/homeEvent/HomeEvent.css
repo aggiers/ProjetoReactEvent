@@ -86,8 +86,13 @@ main {
 
 
 .banner_2{
-    height: 535px;
+    height: 530px;
     background-color: #B51D44;
+}
+
+.retas .reta{
+    background-color: rgba(0, 0, 0, 0.204);
+    height: 90px;
 }
 
 

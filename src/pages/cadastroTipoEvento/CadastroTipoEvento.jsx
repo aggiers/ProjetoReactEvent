@@ -24,7 +24,7 @@ const CadastroTipoEvento = () => {
             <Lista
                 titulo="Lista tipo de eventos"
                 tituloEvento="Título"
-                tdnome="Tipo Evento"
+                tabelaNome="Tipo Evento"
                 visibilEvento="none"
             />
 

@@ -19,7 +19,7 @@ const Lista = (props) => {
                 </thead>
                 <tbody>
                     <tr className="item_lista">
-                        <td data-cell="Nome" >{props.tdnome}</td>
+                        <td data-cell="Nome" >{props.tabelaNome}</td>
                         <td data-cell="Evento" style = {{display:props.visibilEvento}}>Titulo Evento</td>
                         <td data-cell="Editar"><img src={Editar} alt="Imagem de uma caneta" /></td>
                         <td data-cell="Excluir"><img src={Excluir} alt="Lixeira" /></td>

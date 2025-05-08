@@ -23,7 +23,7 @@ const CadastroEvento = () => {
             <Lista
                 titulo="Lista de eventos"
                 tituloEvento="Nome"
-                tdnome="Nome Evento"
+                tabelaNome="Nome Evento"
             />
 
         </main>

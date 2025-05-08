@@ -23,7 +23,7 @@ const CadastroTipoUsuario = () => {
             <Lista
                 titulo="Lista tipo de Usuário"
                 tituloEvento="Título"
-                tdnome="Tipo Usuário"
+                tabelaNome="Tipo Usuário"
                 visibilEvento="none"
             />
         </main>

@@ -3,7 +3,7 @@ import Logo from "../../assets/img/logo.svg"
 import Logo_adm from "../../assets/img/Vector.png"
 
 
-const Header = () => {
+const Header = (props) => {
     return (
         <header>
             <div className="layout_grid cabecalho">
@@ -11,11 +11,12 @@ const Header = () => {
                 <nav className="nav_header">
                     <a href="" className="link_header">Home</a>
                     <a href="" className="link_header">Eventos</a>
-                    <a href="" className="link_header">Usuários</a>
+                    <a href="" className="link_header" style = {{display:props.visibilHeader}}>Usuários</a>
                     <a href="" className="link_header">Contatos</a>
                 </nav>
+                <button className="botao_home" style = {{display:props.visibilBotao}}>Logar</button>
                 <div className="Adm">
-                    <a href="" className="link_header">Administrador</a>
+                    <a href="" className="link_header" style = {{display:props.visibilHeader}}>{props.adm}</a>
                     <img src={Logo_adm} alt="Vetor" />
                 </div>
 

@@ -7,17 +7,24 @@ import imgdois from "../../assets/img/banner_usuario.png"
 const CadastroTipoUsuario = () => {
     return(
         <>
-        <Header/>
+        <Header
+            visibilBotao="none"
+            adm="Administrador"
+        />
         <main>
             <Cadastro
                 tituloCadastro="Cadastro Tipo de Usuário"
                 namePlace="Título"
-
+                visibilidade="none"
+                
                 img = {imgdois}
-
-            />
+                
+                />
             <Lista
-                tituloLista="Lista tipo de Usuário"
+                titulo="Lista tipo de Usuário"
+                tituloEvento="Título"
+                tdnome="Tipo Usuário"
+                visibilEvento="none"
             />
         </main>
         <Footer/>

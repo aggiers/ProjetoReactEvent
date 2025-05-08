@@ -22,6 +22,15 @@ const Cadastro = (props) => {
                             <label htmlFor="titulo"></label>
                             <input type="text" name="nome" placeholder={`${props.namePlace}`}/>
                         </div>
+                        <div className="campo_cad_evento" style={{display:props.visibilidade}}>
+                            <label htmlFor="tipo evento">Tipo Evento</label>
+                            <select name="tipo evento" id="">
+                                <option value=""disabled selected>Tipo Evento</option>
+                                <option value="">op 1</option>
+                                <option value="">op 2</option>
+                                <option value="">op 3</option>
+                            </select>
+                        </div>
 
                         <Botao nomeDoBotao="Cadastrar"/>
                     </div>

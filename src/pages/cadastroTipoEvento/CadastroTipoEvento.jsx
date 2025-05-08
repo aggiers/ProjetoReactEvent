@@ -7,18 +7,25 @@ import imgum from "../../assets/img/banner_cadastro.png"
 const CadastroTipoEvento = () => {
     return(
         <>
-        <Header/>
+        <Header
+            visibilBotao="none"
+            adm="Administrador"
+        />
         <main>
             <Cadastro
                 tituloCadastro="Cadastro Tipo de Eventos"
                 namePlace="Título"
-
+                visibilidade="none"
+                
                 img = {imgum}
-             
-            />
+                
+                />
             
             <Lista
-                tituloLista="Lista tipo de eventos"
+                titulo="Lista tipo de eventos"
+                tituloEvento="Título"
+                tdnome="Tipo Evento"
+                visibilEvento="none"
             />
 
         </main>

@@ -13,7 +13,7 @@ const ListagemEventos = () => {
         <>
             <Header nomeUsu="Aluno" 
                 visibilBotao="none"
-                adm="Administrador"
+                admHeader="Administrador"
             />
             <section className="listagem_evento">
                 <h1>Eventos</h1>

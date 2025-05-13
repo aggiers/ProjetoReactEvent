@@ -8,24 +8,24 @@ const CadastroTipoEvento = () => {
     return(
         <>
         <Header
-            visibilBotao="none"
-            adm="Administrador"
+            visibilBotao = "none"
+            admHeader = "Administrador"
         />
         <main>
             <Cadastro
-                tituloCadastro="Cadastro Tipo de Eventos"
-                namePlace="Título"
-                visibilidade="none"
+                tituloCadastro = "Cadastro Tipo de Eventos"
+                botaoNome =  "Título"
+                visibilidade = "none"
                 
                 img = {imgum}
                 
                 />
             
             <Lista
-                titulo="Lista tipo de eventos"
-                tituloEvento="Título"
-                tabelaNome="Tipo Evento"
-                visibilEvento="none"
+                titulo = "Lista tipo de eventos"
+                tituloEvento = "Título"
+                tabelaNome = "Tipo Evento"
+                visibilEvento = "none"
             />
 
         </main>

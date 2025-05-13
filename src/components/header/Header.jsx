@@ -16,7 +16,7 @@ const Header = (props) => {
                 </nav>
                 <button className="botao_home" style = {{display:props.visibilBotao}}>Logar</button>
                 <div className="Adm">
-                    <a href="" className="link_header" style = {{display:props.visibilHeader}}>{props.adm}</a>
+                    <a href="" className="link_header" style = {{display:props.visibilHeader}}>{props.admHeader}</a>
                     <img src={Logo_adm} alt="Vetor" />
                 </div>
 

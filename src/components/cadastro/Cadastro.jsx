@@ -20,7 +20,7 @@ const Cadastro = (props) => {
                     <div className="campos_cadastro">
                         <div className="campo_cad_titulo">
                             <label htmlFor="titulo"></label>
-                            <input type="text" name="nome" placeholder={`${props.namePlace}`}/>
+                            <input type="text" name="nome" placeholder={`${props.botaoNome}`}/>
                         </div>
                         <div className="campo_cad_evento" style={{display:props.visibilidade}}>
                             <label htmlFor="tipo evento">Tipo Evento</label>

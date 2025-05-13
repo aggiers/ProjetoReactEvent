@@ -8,22 +8,22 @@ const CadastroEvento = () => {
     return(
         <>
         <Header
-            visibilBotao="none"
-            adm="Administrador"
+            visibilBotao = "none"
+            admHeader = "Administrador"
         />
         <main>
             <Cadastro
-                tituloCadastro="Cadastro de Eventos"
-                namePlace="Nome"
+                tituloCadastro = "Cadastro de Eventos"
+                botaoNome = "Nome"
                 
                 img = {imgum}
                 
                 />
             
             <Lista
-                titulo="Lista de eventos"
-                tituloEvento="Nome"
-                tabelaNome="Nome Evento"
+                titulo = "Lista de eventos"
+                tituloEvento = "Nome"
+                tabelaNome = "Nome Evento"
             />
 
         </main>

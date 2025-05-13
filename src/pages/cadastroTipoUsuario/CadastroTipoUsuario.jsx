@@ -8,23 +8,23 @@ const CadastroTipoUsuario = () => {
     return(
         <>
         <Header
-            visibilBotao="none"
-            adm="Administrador"
+            visibilBotao = "none"
+            admHeader = "Administrador"
         />
         <main>
             <Cadastro
-                tituloCadastro="Cadastro Tipo de Usuário"
-                namePlace="Título"
-                visibilidade="none"
+                tituloCadastro = "Cadastro Tipo de Usuário"
+                botaoNome = "Título"
+                visibilidade = "none"
                 
                 img = {imgdois}
                 
                 />
             <Lista
-                titulo="Lista tipo de Usuário"
-                tituloEvento="Título"
-                tabelaNome="Tipo Usuário"
-                visibilEvento="none"
+                titulo = "Lista tipo de Usuário"
+                tituloEvento = "Título"
+                tabelaNome = "Tipo Usuário"
+                visibilEvento = "none"
             />
         </main>
         <Footer/>

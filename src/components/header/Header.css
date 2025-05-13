@@ -45,16 +45,16 @@ header{
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px){
+
+    /* 0pc ate 768 */
     .cabecalho img{
         height: 35px;
-    }
 
-    .link-header{
-        display: none;
+
+    .link_header{
         margin-left: 10px;
     }
-    .nav_header{
-        display: none;
+
     }
 }
